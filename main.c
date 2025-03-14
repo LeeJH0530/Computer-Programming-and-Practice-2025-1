@@ -10,7 +10,26 @@
  * 문장리스트에서 매개변수를 사용할 수 있습니다.
  */
 
+<<<<<<< Updated upstream
 /* To Do: 
  * 반환 타입이 int이고 이름이 value이고, 매개변수가 int 타입 한개고, 
  * 매개변수의 값을 그대로 반환하는 하나인 함수를 정의해보세요 
+=======
+/* To Do: 반환 타입이 int이고 이름이 value이고, 매개변수가 int 타입 하나인 함수를 선언해보세요 */
+int value(int number);
+
+int main() {
+	return value(5);
+}
+
+/* 
+ * 함수 이름: value
+ * 반환 타입: int
+ * 매개 변수: int x
+ *
+ * value 함수는 int 타입 매개 변수의 값을 그대로 반환한다.
+>>>>>>> Stashed changes
  */
+int value(int x) {
+	return x;
+}
