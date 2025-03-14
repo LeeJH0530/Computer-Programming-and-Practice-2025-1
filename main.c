@@ -6,8 +6,9 @@
 
 int value(int);
 
-int main() {
-	return value(1); /* 1을 반환한다. */
+/*
+*vlaue 함수는 값을 그대로 변환한다
+*/
+int value(int x) {
+	return x;
 }
-
-/* To Do: value.c 소스 파일을 만들고, 새로 만든 파일에서 value 함수를 정의해보세요 */
